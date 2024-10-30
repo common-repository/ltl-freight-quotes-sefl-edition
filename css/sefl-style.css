@@ -1,0 +1,555 @@
+/*
+ @ Connection Setting Section Start
+*/
+#wpfooter {
+    position: static;
+    margin-left: 0px !important;
+}
+
+#footer-left {
+    margin-left: 160px !important
+}
+
+.connection_section_class_sefl .form-table tr .titledesc {
+    width: 300px;
+}
+
+.connection_section_class_sefl .button-primary,
+.connection_section_class_sefl .is-primary {
+    margin-left: 27px;
+    width: 160px !important;
+    height: 40px;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.connection_section_class_sefl .connection_save_button {
+    margin-left: 15px;
+    width: 190px !important;
+    height: 40px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+}
+
+.connection_section_class_sefl input[type="text"] {
+    width: 350px;
+    border-radius: 1px;
+    height: 36px !important;
+}
+
+.connection_section_class_sefl label {
+    cursor: default;
+}
+
+.connection_section_class_sefl p.submit {
+    float: right;
+    text-align: left;
+    width: calc(100% - 310px);
+}
+
+.connection_section_class_sefl p.submit > * {
+    line-height: 2.9 !important;
+}
+
+
+/*
+ @ Quote Setting Section Start
+*/
+
+
+.quote_section_class_sefl label {
+    cursor: default;
+}
+
+.quote_section_class_sefl input[type="text"] {
+    width: 225px;
+    border-radius: 1px;
+    height: 36px !important;
+}
+
+.quote_section_class_sefl input[type="checkbox"] {
+    cursor: default;
+    height: 26px !important;
+    width: 26px !important;
+}
+
+.quote_section_class_sefl input[type="checkbox"]:checked::before {
+    width: 28px;
+    padding-top: 4px;
+}
+
+.wp-admin select {
+    height: 36px;
+    border-radius: 1px;
+}
+
+.quote_section_class_sefl .form-table tr .titledesc {
+    width: 300px;
+}
+
+.quote_section_class_sefl .button-primary,
+.quote_section_class_sefl .is-primary {
+    width: 120px !important;
+    margin-left: 336px;
+    height: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.quote_section_class_sefl p.submit {
+  display: flex !important;
+  justify-content: end !important;
+}
+
+.sefl_test_connection {
+    font-size: 13px !important;
+    width: 160px !important;
+    text-align: center;
+}
+
+.sefl_test_connection:hover {
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+
+/*
+ @ User Guide Section
+ */
+.user_guide {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.user_guide p {
+    font-size: 14px;
+}
+
+label[for="wc_settings_sefl_username"]:after, label[for="wc_settings_sefl_accountno"]:after, label[for="customer_name_sefl"]:after, label[for="wc_settings_sefl_plugin_licence_key"]:after, label[for="wc_settings_sefl_password"]:after, label[for="sefl_origin_zip"]:after, label[for="sefl_origin_city"]:after, label[for="sefl_origin_state"]:after, label[for="sefl_origin_country"]:after, label[for="sefl_dropship_zip"]:after, label[for="sefl_dropship_city"]:after, label[for="sefl_dropship_state"]:after, label[for="sefl_dropship_country"]:after,
+label[for="customer_street_address_sefl"]:after,
+label[for="customer_city_sefl"]:after,
+label[for="customer_state_sefl"]:after,
+label[for="customer_zip_code_sefl"]:after {
+    content: " *";
+    color: red;
+}
+
+.hoveraffect:hover {
+    background: #008ec2 !Important;
+    border-color: #006799 !Important;
+    color: #fff !Important;
+}
+
+.seflCheckboxClass {
+    cursor: default !important;
+    height: 12px !important;
+    margin: -4px 5px 0 0 !important;
+    width: 12px !important;
+    min-width: 12px !important;
+}
+
+.seflCheckboxClass:checked:before {
+    margin: -5px 0 0 -6px !important;
+}
+
+.woocommerce_variable_attributes div.data select {
+    width: 100% !important;
+}
+
+.form-row select {
+    height: 35px !important;
+}
+
+.woocommerce_variable_attributes div.data .checkbox {
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+}
+
+.warning-msg {
+    margin: 5px 0 15px !important;
+    border-left-color: #ffb900 !important;
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    padding: 0.1px 12px;
+}
+
+.warning-msg p, .already_exist p, .sefl_warehouse_invalid_input_message p, .sefl_dropship_invalid_input_message p {
+    margin: .5em 0;
+}
+
+.desc_text_style {
+    font-style: normal !important;
+    font-size: 13px;
+}
+
+.sefl_freight_test_conn_prosessing {
+    background: rgba(255, 255, 255, 1) url("../warehouse-dropship/wild/assets/images/processing.gif") no-repeat scroll 50% 50%;
+}
+
+/*
+ * new css starts here
+ */
+
+
+.sefl_ltl_freight_class ~ span {
+    display: block;
+    margin-top: 5px;
+    margin-left: -7px;
+
+}
+
+.sefl_ltl_freight_class ~ span.description {
+    all: unset;
+}
+
+.connection_section_class_sefl .form-table tbody {
+    display: block;
+    margin-left: 0px;
+}
+
+/* font size quote setting page */
+.en_woo_addons_liftgate_with_auto_residential_style th,
+.sefl_residential th,
+.avaibility_lift_gate th,
+.sefl_liftgate th,
+.sefl_quotes_liftgate_delivery_as_option th,
+.avaibility_auto_residential th {
+    padding: 0px 0 10px 15px;
+    margin-left: 10px !important;
+    font-weight: 400;
+}
+
+.en_woo_addons_liftgate_with_auto_residential_style td,
+.sefl_residential td,
+.avaibility_lift_gate td,
+.sefl_liftgate td,
+.sefl_quotes_liftgate_delivery_as_option td,
+.avaibility_auto_residential td {
+    padding: 0px 0 10px 15px;
+}
+
+.quote_section_class_sefl span {
+    font-style: normal !important;
+}
+
+.quote_section_class_sefl .en_woo_addons_liftgate_with_auto_residential,
+.quote_section_class_sefl .suspend_automatic_detection_of_residential_addresses {
+    cursor: default !important;
+    height: 12px !important;
+    margin: -4px 5px 0 0 !important;
+    width: 12px !important;
+    min-width: 12px !important;
+}
+
+.quote_section_class_sefl .en_woo_addons_liftgate_with_auto_residential:checked:before,
+.quote_section_class_sefl .suspend_automatic_detection_of_residential_addresses:checked:before {
+    margin: -5px 0 0 -6px !important;
+}
+
+.quote_section_class_sefl td.forminp.forminp-radio ul li {
+    display: inline-block !important;
+}
+
+._nestedDimension, ._nestedStakingProperty {
+    width: 50% !important;
+}
+
+._nestedMaterials_tr .description a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    font-style: normal;
+    top: 3px;
+}
+
+._nestedMaterials_tr .description {
+    font-style: normal;
+    font-size: 13px;
+}
+
+.disabled_me._nestedDimension, .disabled_me._nestedStakingProperty {
+    color: #000000;
+}
+/* Cuttoff Time */
+input#service_sefl_estimates_title {
+    display: none;
+}
+tr.sefl_estimates_title th {
+    font-size: 1.2em;
+}
+
+tr.all_shipment_days_sefl_tr th {
+    padding-left: 23px;
+    font-weight: 400;
+}
+
+tr.sefl_shipment_day_tr {
+    display: inline-block;
+}
+
+.quote_section_class_sefl table.form-table tbody {
+    width: 100%;
+    display: block;
+}
+
+tr.all_shipment_days_sefl_tr {
+    display: inline;
+}
+
+tr.all_shipment_days_sefl_tr td {
+    padding-left: 10px;
+}
+
+tr.sefl_shipment_day_tr th {
+    display: none;
+}
+
+.quote_section_class_sefl tr.wc_pervent_proceed_checkout_eniture th {
+    padding-left: 18px;
+}
+
+.sefl_ship_date_offset a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    padding-right: 15px;
+    position: relative;
+    left: -130px;
+    top: -2px;
+}
+
+.sefl_estimates_title a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    padding-right: 15px;
+    position: relative;
+    left: -130px;
+    top: -2px;
+}
+.plan_color {
+    text-decoration: none;
+    color: red !important;
+    font-size: 17px;
+    font-weight: bold;
+}
+.plan_color:hover {
+    color: #ff0000;
+}
+.quote_section_class_sefl table tbody tr td.forminp.forminp-radio ul li {
+    display: block !important;
+}
+.sefl_freight_shipment_offset_days_tr th {
+    padding-left: 23px;
+    font-weight: 400;
+}
+.sefl_freight_shipment_offset_days_tr th label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.sefl_freight_cutt_off_time_ship_date_offset th label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.sefl_freight_cutt_off_time_ship_date_offset th {
+    padding-left: 23px;
+    font-weight: 400;
+}
+/* Weight threshold for LTL freight */
+tr.hide_en_weight_threshold_lfq {
+    display: none;
+}
+/*Fix estimate options*/
+.quote_section_class_sefl td.forminp.forminp-radio ul li {
+    display: block !important;
+}
+/* fdo va */
+.en-coupon-code-div{
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+.en-coupon-notice{
+    border-left-color: #72aee6;
+}
+
+.en-coupon-success{
+    border-left-color: #00a32a;
+}
+
+.en-coupon-error{
+    border-left-color: #d63638;
+}
+
+.en-coupon-btn-div{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.en-error-message{
+    color: #dc3232 !important;
+}
+/*fdo va*/
+/* Create two equal columns that floats next to each other */
+.half-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.parent-column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.dn {
+    display:none;
+}
+.dnblock {
+    float: none;
+    text-align: center;
+    width: auto;
+    padding-top: 0px;
+}
+.user_guide_fdo {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.user_guide_fdo p.submit {
+    display: none;
+}
+#freightdesk_online_id {
+    width: 98%;
+    padding: 3px;
+}
+
+.woocommerce_variable_attributes.wc-metabox-content p span.description a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+/* Product variant UI styles */
+.woocommerce_variable_attributes.wc-metabox-content [class^="_dropship_location"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_ltl_freight"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nmfc_number"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_en_product_markup"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedPercentage"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="en_flat_rate_price"],
+.woocommerce_variable_attributes.wc-metabox-content select._nestedDimension,
+.woocommerce_variable_attributes.wc-metabox-content input._maxNestedItems,
+.woocommerce_variable_attributes.wc-metabox-content select._nestedStakingProperty {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content > p {
+    margin: 15px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data h2.sbs_settings_title {
+    padding: 0 !important;
+    margin: 30px 0 -10px 3px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content h2 {
+    padding: 0 !important;
+    margin: 30px 0 0 30px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content [class^="_dropship_location"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_ltl_freight"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="en_flat_rate_price"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_en_product_markup"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedPercentage"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedDimension"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_maxNestedItems"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedStakingProperty"] {
+    margin: 2px 0 0;
+    padding: 5px;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_flat_rate_price"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_en_product_markup"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedPercentage"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedDimension"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_maxNestedItems"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedStakingProperty"] span.woocommerce-help-tip {
+    float: right;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] {
+    display: flex;
+    align-items: center;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"] input[id^="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"] input[id^="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"] input[id^="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"] input[id^="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"] input[id^="_en_multiple_packages"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"] input[id^="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"] input[id^="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"] input[id^="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] input[id^="_en_insurance_fee"] {
+    order: -1;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"] input[id^="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"] input[id^="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"] input[id^="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"] input[id^="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] input[id^="_en_insurance_fee"] {
+    margin: 0 10px 0 0 !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"] input[id^="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"] input[id^="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"] input[id^="_en_multiple_packages"] {
+    margin: 0 10px 0 15px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] {
+    margin-left: 30px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"] input[id^="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"] {
+    margin-right: 10px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data fieldset[class*="_signature_required"] legend {
+    margin-bottom: 5px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data fieldset[class*="_signature_required"] ul[class*="wc-radios"] li {
+    padding: 0 !important;
+}
